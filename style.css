@@ -1,14 +1,15 @@
 .container{
     background-image: image("challenge_6/images/fond.png");
 }
-h1,h2,h3,h4,h5,h6{
+h1, h2, h4, h5, h6{
     font-family: "Oswald";
+    font-weight: bold;
 }
 
 
 header{
     background-image: url("challenge_6/images/header.png");
-    padding: 45px;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
 }
@@ -26,6 +27,7 @@ nav{
     background-color: #76CBFA;
     box-shadow: -1px 2px 10px 3px rgba(0, 0, 0, 0.3) inset;
     font-family: "Abel";
+    font-size: 1.5em;
 
 }
 
@@ -35,8 +37,92 @@ nav a {
 
 p{
     font-family: "Arial";
+    font-size: 1em;
+}
+
+.artfirst{
+        padding: 5px;
+
+}
+
+h4{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+article a {
+
+    color: #FF0000;
+    text-decoration: underline;
+}
+
+.btn{
+    color: white;
+    background-image: linear-gradient(#FF3D00, #FF0000);
+
+}
+
+.mediaPic{
+    background-image: url("challenge_6/images/fond-article.png");
+    padding: 20px;
+    margin: 5px;
+}
+
+h5{
+    font-size: 1.5em
+}
+
+h2{
+    font-size: 3em;
 }
 
 h3{
-    font-size: 2em;
+        font-family: "Oswald";
+        font-size: 1.5em
+}
+
+.asideList{
+    list-style-image: url("challenge_6/images/fleche.png");
+
+}
+
+.asideList a{
+    text-decoration: none;
+    color: black;
+}
+
+.citation{
+    background-image: url("challenge_6/images/citation.jpg");
+}
+
+.blockquote p{
+    color: grey;
+
+}
+
+.footerSec{
+margin: 1em;
+
+}
+
+.realfooter{
+
+    background-image: url("challenge_6/images/footer.png");
+}
+.realfooter p {
+
+    color: grey;
+}
+
+h5{
+    font-size: 0.8em;
+}
+
+.finDePage{
+    background-image: url("challenge_6/images/bas-de-page.png");
+
+}
+.footerSec img{
+margin: 0.5em;
+
 }
